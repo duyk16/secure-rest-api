@@ -14,7 +14,7 @@ func Init() {
 	r.HandleFunc("/api/auth/login", controller.PostLogin).Methods("POST")
 	r.HandleFunc("/api/user", controller.CreateUser).Methods("POST")
 
-	r.HandleFunc("/api/user", controller.GetUsers).Methods("GET")
+	r.HandleFunc("/api/user/{userId}", controller.GetUserById).Methods("GET")
 
 	listen(r, "8000")
 }

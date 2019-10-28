@@ -11,6 +11,7 @@ type Config struct {
 	Threads int     `json:"threads"`
 	Name    string  `json:"name"`
 	Storage Storage `json:"storage"`
+	JWTKey  string  `json:"jwt_key"`
 }
 
 type Storage struct {
