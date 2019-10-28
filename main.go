@@ -1,9 +1,13 @@
 package main
 
 import (
-	"fmt"
+	"secure-rest-api/config"
+	"secure-rest-api/router"
+	"secure-rest-api/storage"
 )
 
 func main() {
-	fmt.Println("Hello World")
+	config.Init()
+	storage.Init()
+	router.Init()
 }

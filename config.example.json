@@ -1,0 +1,9 @@
+{
+    "threads": 1,
+    "name": "Secure Rest API",
+
+    "storage" : {
+        "uri": "mongodb://localhost:27017",
+        "name": "SecureRestApi"
+    }
+}
