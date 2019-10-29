@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"secure-rest-api/model"
-	u "secure-rest-api/util"
+	"github.com/duyk16/secure-rest-api/model"
+	u "github.com/duyk16/secure-rest-api/util"
 
 	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/bson/primitive"

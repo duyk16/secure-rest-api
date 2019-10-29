@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"secure-rest-api/controller"
-	"secure-rest-api/middleware"
+	"github.com/duyk16/secure-rest-api/controller"
+	"github.com/duyk16/secure-rest-api/middleware"
 
 	"github.com/gorilla/mux"
 )

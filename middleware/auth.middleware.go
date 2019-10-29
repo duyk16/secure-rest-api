@@ -2,9 +2,10 @@ package middleware
 
 import (
 	"net/http"
-	"secure-rest-api/config"
-	u "secure-rest-api/util"
 	"strings"
+
+	"github.com/duyk16/secure-rest-api/config"
+	u "github.com/duyk16/secure-rest-api/util"
 
 	"github.com/dgrijalva/jwt-go"
 )

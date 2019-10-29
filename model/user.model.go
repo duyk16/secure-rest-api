@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"secure-rest-api/storage"
-	"secure-rest-api/util"
+	"github.com/duyk16/secure-rest-api/storage"
+	"github.com/duyk16/secure-rest-api/util"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

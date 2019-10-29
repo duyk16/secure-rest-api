@@ -1,9 +1,9 @@
 package main
 
 import (
-	"secure-rest-api/config"
-	"secure-rest-api/router"
-	"secure-rest-api/storage"
+	"github.com/duyk16/secure-rest-api/config"
+	"github.com/duyk16/secure-rest-api/router"
+	"github.com/duyk16/secure-rest-api/storage"
 )
 
 func main() {

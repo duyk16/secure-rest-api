@@ -3,7 +3,8 @@ package storage
 import (
 	"context"
 	"log"
-	"secure-rest-api/config"
+
+	"github.com/duyk16/secure-rest-api/config"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
